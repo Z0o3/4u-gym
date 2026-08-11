@@ -235,8 +235,8 @@ h2 {
   min-height: calc(100svh - 76px);
   overflow: hidden;
   background:
-    linear-gradient(90deg, rgb(5 7 5 / 100%) 0%, rgb(5 7 5 / 96%) 48%, rgb(5 7 5 / 68%) 100%),
-    radial-gradient(circle at 77% 34%, #31531f 0, #121512 36%, #050705 72%);
+          linear-gradient(90deg, rgb(5 7 5 / 100%) 0%, rgb(5 7 5 / 96%) 48%, rgb(5 7 5 / 68%) 100%),
+          radial-gradient(circle at 77% 34%, #31531f 0, #121512 36%, #050705 72%);
   color: var(--white);
   isolation: isolate;
 }
@@ -246,8 +246,8 @@ h2 {
   z-index: 0;
   inset: 0;
   background-image:
-    repeating-linear-gradient(112deg, transparent 0 68px, rgb(135 187 12 / 10%) 68px 70px, transparent 70px 112px),
-    linear-gradient(rgb(255 255 255 / 3%) 1px, transparent 1px);
+          repeating-linear-gradient(112deg, transparent 0 68px, rgb(135 187 12 / 10%) 68px 70px, transparent 70px 112px),
+          linear-gradient(rgb(255 255 255 / 3%) 1px, transparent 1px);
   background-size: auto, 100% 7px;
   content: "";
   mask-image: linear-gradient(to right, black, transparent 75%);
@@ -260,9 +260,9 @@ h2 {
   z-index: 0;
   inset: -24%;
   background:
-    radial-gradient(circle at 24% 38%, rgb(13 211 81 / 48%) 0 5%, rgb(13 211 81 / 16%) 17%, transparent 38%),
-    radial-gradient(circle at 72% 22%, rgb(135 187 12 / 40%) 0 6%, rgb(13 211 81 / 13%) 20%, transparent 42%),
-    radial-gradient(ellipse at 58% 78%, rgb(13 211 81 / 30%) 0 8%, transparent 36%);
+          radial-gradient(circle at 24% 38%, rgb(13 211 81 / 48%) 0 5%, rgb(13 211 81 / 16%) 17%, transparent 38%),
+          radial-gradient(circle at 72% 22%, rgb(135 187 12 / 40%) 0 6%, rgb(13 211 81 / 13%) 20%, transparent 42%),
+          radial-gradient(ellipse at 58% 78%, rgb(13 211 81 / 30%) 0 8%, transparent 36%);
   content: "";
   filter: blur(26px) saturate(145%);
   mix-blend-mode: screen;
@@ -398,8 +398,8 @@ h2 {
   overflow: hidden;
   border: 1px solid rgb(135 187 12 / 50%);
   background:
-    linear-gradient(145deg, transparent 0 45%, rgb(135 187 12 / 28%) 45% 46%, transparent 46%),
-    linear-gradient(25deg, var(--navy-700), var(--navy-900));
+          linear-gradient(145deg, transparent 0 45%, rgb(135 187 12 / 28%) 45% 46%, transparent 46%),
+          linear-gradient(25deg, var(--navy-700), var(--navy-900));
   color: var(--white);
 }
 
@@ -457,8 +457,8 @@ h2 {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to top, rgb(5 7 5 / 88%), transparent 46%),
-    linear-gradient(135deg, rgb(135 187 12 / 18%), transparent 38%);
+          linear-gradient(to top, rgb(5 7 5 / 88%), transparent 46%),
+          linear-gradient(135deg, rgb(135 187 12 / 18%), transparent 38%);
   content: "";
   pointer-events: none;
 }
@@ -573,8 +573,8 @@ h2 {
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(120deg, transparent 0 76%, rgb(135 187 12 / 10%) 76% 78%, transparent 78%),
-    var(--muted);
+          linear-gradient(120deg, transparent 0 76%, rgb(135 187 12 / 10%) 76% 78%, transparent 78%),
+          var(--muted);
 }
 
 .services-section::before {
@@ -641,8 +641,8 @@ h2 {
   gap: 28px;
   overflow: hidden;
   background:
-    repeating-linear-gradient(112deg, transparent 0 72px, rgb(13 211 81 / 11%) 72px 74px, transparent 74px 118px),
-    var(--navy-950);
+          repeating-linear-gradient(112deg, transparent 0 72px, rgb(13 211 81 / 11%) 72px 74px, transparent 74px 118px),
+          var(--navy-950);
   box-shadow: var(--glow-green-soft);
   color: var(--white);
 }
@@ -675,8 +675,8 @@ h2 {
 
 .pricing-section {
   background:
-    repeating-linear-gradient(112deg, transparent 0 88px, rgb(135 187 12 / 7%) 88px 90px, transparent 90px 148px),
-    var(--navy-900);
+          repeating-linear-gradient(112deg, transparent 0 88px, rgb(135 187 12 / 7%) 88px 90px, transparent 90px 148px),
+          var(--navy-900);
   color: var(--white);
 }
 
@@ -873,8 +873,8 @@ h2 {
   padding: clamp(32px, 5vw, 54px);
   overflow: hidden;
   background:
-    linear-gradient(145deg, transparent 62%, rgb(135 187 12 / 16%) 62% 64%, transparent 64%),
-    var(--navy-900);
+          linear-gradient(145deg, transparent 62%, rgb(135 187 12 / 16%) 62% 64%, transparent 64%),
+          var(--navy-900);
   color: var(--white);
 }
 
@@ -937,8 +937,8 @@ h2 {
 
 .gallery-section {
   background:
-    linear-gradient(115deg, transparent 0 68%, rgb(135 187 12 / 7%) 68% 70%, transparent 70%),
-    var(--muted);
+          linear-gradient(115deg, transparent 0 68%, rgb(135 187 12 / 7%) 68% 70%, transparent 70%),
+          var(--muted);
 }
 
 .gallery-carousel {
@@ -1358,8 +1358,8 @@ h2 {
 .final-cta {
   padding-block: clamp(74px, 10vw, 112px);
   background:
-    repeating-linear-gradient(112deg, transparent 0 90px, rgb(0 0 0 / 8%) 90px 93px, transparent 93px 150px),
-    var(--gold);
+          repeating-linear-gradient(112deg, transparent 0 90px, rgb(0 0 0 / 8%) 90px 93px, transparent 93px 150px),
+          var(--gold);
   color: var(--navy-950);
 }
 
@@ -1884,6 +1884,454 @@ h2 {
   }
 }
 
+/* Fondo ambiental neón: vive únicamente dentro de main, por lo que el footer queda limpio. */
+main#contenido {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+          radial-gradient(circle at 12% 7%, rgb(21 255 102 / 20%), transparent 24%),
+          radial-gradient(circle at 84% 21%, rgb(132 255 37 / 14%), transparent 26%),
+          radial-gradient(circle at 18% 46%, rgb(13 211 81 / 17%), transparent 28%),
+          radial-gradient(circle at 82% 72%, rgb(21 255 102 / 18%), transparent 26%),
+          linear-gradient(180deg, #020905 0%, #07150b 30%, #031008 62%, #020805 100%);
+  color: #f5f8f4;
+}
+
+main#contenido > section {
+  position: relative;
+  z-index: 1;
+}
+
+.neon-art {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.neon-aura {
+  position: absolute;
+  width: min(76vw, 920px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(18 255 100 / 18%) 0, rgb(13 211 81 / 8%) 32%, transparent 68%);
+  filter: blur(46px) saturate(150%);
+  opacity: 0.9;
+  will-change: transform, opacity;
+  animation: neon-aura-drift 22s ease-in-out infinite alternate;
+}
+
+.neon-aura-one {
+  top: 2%;
+  left: -28%;
+}
+
+.neon-aura-two {
+  top: 21%;
+  right: -30%;
+  animation-delay: -7s;
+  animation-direction: alternate-reverse;
+}
+
+.neon-aura-three {
+  top: 43%;
+  left: -22%;
+  animation-delay: -13s;
+}
+
+.neon-aura-four {
+  top: 66%;
+  right: -25%;
+  animation-delay: -4s;
+  animation-direction: alternate-reverse;
+}
+
+.neon-aura-five {
+  top: 86%;
+  left: 9%;
+  animation-delay: -17s;
+}
+
+.neon-figure {
+  position: absolute;
+  display: block;
+  opacity: 0.64;
+  mix-blend-mode: screen;
+  will-change: opacity, transform;
+}
+
+.neon-figure svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 5;
+  filter:
+          drop-shadow(0 0 3px currentColor)
+          drop-shadow(0 0 9px currentColor)
+          drop-shadow(0 0 22px currentColor);
+}
+
+.neon-motion-a {
+  animation: neon-float-a 24s ease-in-out infinite alternate;
+}
+
+.neon-motion-b {
+  animation: neon-float-b 29s ease-in-out infinite alternate;
+}
+
+.neon-motion-c {
+  animation: neon-float-c 20s ease-in-out infinite alternate;
+}
+
+@keyframes neon-aura-drift {
+  0% {
+    opacity: 0.58;
+    transform: translate3d(-6vw, -40px, 0) scale(0.86);
+  }
+
+  55% {
+    opacity: 0.96;
+    transform: translate3d(7vw, 60px, 0) scale(1.08);
+  }
+
+  100% {
+    opacity: 0.7;
+    transform: translate3d(14vw, -16px, 0) scale(0.94);
+  }
+}
+
+@keyframes neon-float-a {
+  0% {
+    opacity: 0.35;
+    transform: translate3d(-12vw, -28px, 0) scale(0.82);
+  }
+
+  48% {
+    opacity: 0.78;
+    transform: translate3d(5vw, 42px, 0) scale(1.08);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translate3d(16vw, -18px, 0) scale(0.92);
+  }
+}
+
+@keyframes neon-float-b {
+  0% {
+    opacity: 0.72;
+    transform: translate3d(13vw, 42px, 0) scale(1.04);
+  }
+
+  52% {
+    opacity: 0.38;
+    transform: translate3d(-4vw, -48px, 0) scale(0.84);
+  }
+
+  100% {
+    opacity: 0.68;
+    transform: translate3d(-15vw, 20px, 0) scale(1.02);
+  }
+}
+
+@keyframes neon-float-c {
+  0% {
+    opacity: 0.32;
+    transform: translate3d(-4vw, 58px, 0) scale(0.88);
+  }
+
+  45% {
+    opacity: 0.76;
+    transform: translate3d(8vw, -34px, 0) scale(1.1);
+  }
+
+  100% {
+    opacity: 0.46;
+    transform: translate3d(1vw, 74px, 0) scale(0.94);
+  }
+}
+
+.hero-neon-art {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.hero-neon-figure {
+  position: absolute;
+  display: block;
+  width: 104px;
+  height: 104px;
+  opacity: 0.72;
+  mix-blend-mode: screen;
+  will-change: opacity, transform;
+  animation: hero-figure-sweep 15s ease-in-out infinite alternate;
+}
+
+.hero-neon-figure svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 5;
+  filter:
+          drop-shadow(0 0 3px currentColor)
+          drop-shadow(0 0 10px currentColor)
+          drop-shadow(0 0 22px currentColor);
+}
+
+.hero-neon-cross {
+  top: 19%;
+  left: 4%;
+}
+
+.hero-neon-bolt {
+  top: 7%;
+  right: 4%;
+  width: 128px;
+  height: 128px;
+  animation-delay: -6s;
+  animation-direction: alternate-reverse;
+}
+
+.hero-neon-ring {
+  top: 44%;
+  right: 1%;
+  width: 92px;
+  height: 92px;
+  animation-delay: -10s;
+}
+
+.hero-neon-triangle {
+  right: 43%;
+  bottom: 7%;
+  width: 118px;
+  height: 118px;
+  animation-delay: -3s;
+  animation-direction: alternate-reverse;
+}
+
+.hero-neon-wave {
+  bottom: 4%;
+  left: -2%;
+  width: 150px;
+  height: 104px;
+  animation-delay: -12s;
+}
+
+@keyframes hero-figure-sweep {
+  0% {
+    opacity: 0.36;
+    transform: translate3d(-34px, -18px, 0) scale(0.86);
+  }
+
+  52% {
+    opacity: 0.86;
+    transform: translate3d(24px, 38px, 0) scale(1.08);
+  }
+
+  100% {
+    opacity: 0.52;
+    transform: translate3d(68px, -10px, 0) scale(0.94);
+  }
+}
+
+/* Los paneles dejan pasar el fondo verde sin sacrificar legibilidad. */
+.hero {
+  background:
+          linear-gradient(90deg, rgb(2 8 4 / 32%) 0%, rgb(2 9 4 / 20%) 48%, rgb(2 9 4 / 8%) 100%),
+          radial-gradient(circle at 77% 34%, rgb(49 83 31 / 34%) 0, rgb(5 16 8 / 20%) 38%, transparent 76%);
+}
+
+.facts {
+  border-color: rgb(59 255 120 / 22%);
+  background: rgb(2 12 6 / 78%);
+  color: var(--white);
+  backdrop-filter: blur(14px);
+}
+
+.fact,
+.fact:first-child,
+.services-grid,
+.services-grid li,
+.faq-list,
+.faq-list details {
+  border-color: rgb(61 255 123 / 20%);
+}
+
+.fact p,
+.fact span,
+.body-copy,
+.section-heading > p,
+.requirements-list li,
+.carousel-counter,
+.carousel-slide figcaption,
+.visit-copy p:not(.section-kicker),
+.schedule-note,
+.location-copy address,
+.faq-intro,
+.faq-list details p,
+.pricing-note {
+  color: #c7d7c8;
+}
+
+main#contenido h2,
+.services-grid li strong,
+.combat-copy,
+.location-copy,
+.faq-list summary {
+  color: var(--white);
+}
+
+main#contenido .section-kicker,
+main#contenido .section-kicker-dark {
+  color: var(--green-electric);
+  text-shadow: 0 0 14px rgb(13 211 81 / 38%);
+}
+
+.services-section,
+.combat-section,
+.gallery-section,
+.location-section,
+.faq-section {
+  background: linear-gradient(135deg, rgb(4 19 9 / 38%), rgb(1 7 3 / 12%) 56%, rgb(11 42 19 / 34%));
+}
+
+.pricing-section,
+.visit-section {
+  background:
+          repeating-linear-gradient(112deg, transparent 0 88px, rgb(30 255 105 / 5%) 88px 90px, transparent 90px 148px),
+          rgb(1 9 4 / 63%);
+  backdrop-filter: blur(2px);
+}
+
+.services-grid li,
+.class-tags span,
+.schedule-card {
+  border-color: rgb(53 255 116 / 24%);
+  background: rgb(2 13 6 / 76%);
+  box-shadow: inset 0 0 32px rgb(13 211 81 / 4%);
+  color: var(--white);
+  backdrop-filter: blur(14px);
+}
+
+.class-tags span {
+  color: #effff1;
+}
+
+.schedule-card dl div {
+  border-color: rgb(53 255 116 / 18%);
+}
+
+.schedule-card dd,
+.schedule-card dt {
+  color: var(--white);
+}
+
+.carousel-controls button {
+  border-color: rgb(43 255 107 / 58%);
+  background: rgb(2 12 6 / 66%);
+  color: var(--green-electric);
+}
+
+.carousel-controls button:not(:disabled):hover {
+  border-color: var(--green-electric);
+  background: var(--green-electric);
+  color: var(--navy-950);
+  box-shadow: var(--glow-green);
+}
+
+.carousel-controls button:disabled {
+  border-color: rgb(100 145 108 / 30%);
+  color: #829585;
+}
+
+.carousel-track {
+  scrollbar-color: var(--green-electric) rgb(5 24 11 / 72%);
+}
+
+.location-photo,
+.combat-schedule-card,
+.atmosphere-banner {
+  border: 1px solid rgb(53 255 116 / 20%);
+  box-shadow: 0 0 40px rgb(13 211 81 / 9%);
+}
+
+.faq-section {
+  border-color: rgb(53 255 116 / 18%);
+}
+
+.faq-list {
+  border-top-color: var(--green-electric);
+}
+
+.faq-list summary::before,
+.faq-list summary::after {
+  background: var(--green-electric);
+  box-shadow: 0 0 9px rgb(13 211 81 / 55%);
+}
+
+.final-cta {
+  border-top: 1px solid rgb(53 255 116 / 28%);
+  background:
+          repeating-linear-gradient(112deg, transparent 0 90px, rgb(57 255 119 / 7%) 90px 93px, transparent 93px 150px),
+          linear-gradient(110deg, rgb(3 19 8 / 88%), rgb(10 53 20 / 74%), rgb(2 12 6 / 90%));
+  color: var(--white);
+  backdrop-filter: blur(10px);
+}
+
+.final-cta h2,
+.final-cta p:not(.section-kicker) {
+  color: var(--white);
+}
+
+.button-light {
+  background: var(--green-electric);
+  color: var(--navy-950);
+  box-shadow: var(--glow-green-soft);
+}
+
+.button-outline-light {
+  border-color: var(--green-electric);
+  color: var(--green-electric);
+}
+
+.button-light:hover,
+.button-outline-light:hover {
+  border-color: #9dff4d;
+  background: #9dff4d;
+  color: var(--navy-950);
+  box-shadow: var(--glow-green);
+}
+
+@media (max-width: 820px) {
+  .neon-art {
+    opacity: 0.82;
+  }
+
+  .neon-figure {
+    max-width: 92px;
+    max-height: 92px;
+  }
+
+  .services-grid li,
+  .schedule-card {
+    background: rgb(2 13 6 / 86%);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -1895,7 +2343,10 @@ h2 {
   }
 
   .hero::before,
-  .hero::after {
+  .hero::after,
+  .neon-aura,
+  .neon-figure,
+  .hero-neon-figure {
     animation: none !important;
   }
 }
