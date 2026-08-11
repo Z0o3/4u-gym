@@ -4,6 +4,7 @@ import { Footer } from "../src/components/Footer";
 import { GalleryCarousel } from "../src/components/GalleryCarousel";
 import { Header } from "../src/components/Header";
 import { HeroNeonFigures, NeonBackdrop } from "../src/components/NeonBackdrop";
+import { NutritionCarousel } from "../src/components/NutritionCarousel";
 import { PricingSelector } from "../src/components/PricingSelector";
 import { siteContent } from "../src/data/site-content";
 import { getRequestSiteUrl } from "../src/lib/site-url";
@@ -163,6 +164,68 @@ export default async function Home() {
               <div className="atmosphere-banner">
                 <span aria-hidden="true">4U</span>
                 <p>{siteContent.atmosphere}</p>
+              </div>
+            </div>
+          </section>
+
+          <section
+              className="section nutrition-section"
+              id="nutriologia"
+              aria-labelledby="nutrition-title"
+          >
+            <div className="shell">
+              <div className="nutrition-heading">
+                <h2 id="nutrition-title">Servicio de nutrióloga</h2>
+                <p className="nutrition-lead">
+                  ¡Transforma tu salud con un plan hecho para ti!
+                </p>
+              </div>
+
+              <div className="nutrition-description">
+                <p>
+                  ¿Estás listo/a para lograr tus objetivos de manera saludable,
+                  realista y sin dietas extremas?
+                </p>
+                <p>
+                  En mi servicio de nutrición personalizada, trabajamos juntos
+                  para:
+                </p>
+                <ul className="nutrition-benefits">
+                  <li>Establecer metas claras y alcanzables</li>
+                  <li>Diseñar un plan de alimentación adaptado a tu estilo de vida</li>
+                  <li>Evaluar tu composición corporal y progresos</li>
+                  <li>Acompañarte con seguimiento y motivación constante</li>
+                </ul>
+                <p>
+                  Ya sea que tu objetivo sea bajar de peso, mejorar tu rendimiento,
+                  ganar masa muscular o simplemente sentirte mejor contigo, aquí
+                  encontrarás el apoyo y la guía que necesitas.
+                </p>
+              </div>
+
+              <NutritionCarousel />
+
+              <div className="nutrition-contact">
+                <div>
+                  <p>Agenda tu consulta</p>
+                  <span>Contacta directamente a la nutrióloga por sus perfiles oficiales.</span>
+                </div>
+                <div className="nutrition-social-links">
+                  <a
+                      href="https://www.instagram.com/nutricion_jessenia_torres?igsh=MWpjcnM1cmpvcTNleg=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                      href="https://www.facebook.com/share/1BeaFQABGX/?mibextid=wwXIfr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Facebook
+                  </a>
+                </div>
               </div>
             </div>
           </section>
