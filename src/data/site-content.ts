@@ -3,7 +3,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const siteContent = {
   name: "4U Wellness Gym",
   description:
-    "Gimnasio en Celaya con zona de fuerza, cardio y clases de combate.",
+      "Gimnasio en Celaya con zona de fuerza, cardio y clases de combate.",
   url: siteUrl,
   location: {
     street: "Eje Nor-Poniente Manuel J. Clouthier 325, Col. La Capilla",
@@ -11,14 +11,14 @@ export const siteContent = {
     state: "Guanajuato",
     postalCode: "38013",
     fullAddress:
-      "Eje Nor-Poniente Manuel J. Clouthier 325, Col. La Capilla, C.P. 38013, Celaya, Guanajuato.",
+        "Eje Nor-Poniente Manuel J. Clouthier 325, Col. La Capilla, C.P. 38013, Celaya, Guanajuato.",
     reference: "Frente al Hospital San José, al lado de PIRMA.",
     mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=4U+WELLNESS+GYM+Celaya+Guanajuato",
+        "https://www.google.com/maps/search/?api=1&query=4U+WELLNESS+GYM+Celaya+Guanajuato",
   },
   social: {
     facebook:
-      "https://www.facebook.com/profile.php?id=61559026002382&ref=NONE_xav_ig_profile_page_web#",
+        "https://www.facebook.com/profile.php?id=61559026002382&ref=NONE_xav_ig_profile_page_web#",
     instagram: "https://www.instagram.com/4uwellness_gym/",
   },
   phone: "",
@@ -75,7 +75,7 @@ export const siteContent = {
   team: [],
   promotions: [],
   quickFacts: [
-    { value: "Box, Muay Thai y MMA", note: "También kick boxing" },
+    { value: "Pesas, Cardio, Box, Muay Thai y MMA", note: "Fuerza, cardio y combate" },
     { value: "Abierto toda la semana", note: "Desde las 05:00 entre semana" },
     { value: "Visita $45", note: "Inscripción $50" },
   ],
@@ -185,37 +185,37 @@ export const siteContent = {
     {
       question: "¿Cuánto cuesta entrenar en 4U Wellness Gym?",
       answer:
-        "La mensualidad general cuesta $390; estudiante y grupal, $370. La visita cuesta $45 y la inscripción $50. Consulta condiciones y vigencia en recepción.",
+          "La mensualidad general cuesta $390; estudiante y grupal, $370. La visita cuesta $45 y la inscripción $50. Consulta condiciones y vigencia en recepción.",
     },
     {
       question: "¿Qué clases de combate hay?",
       answer:
-        "Hay clases de box, Muay Thai, MMA y kick boxing durante el fin de semana. El cupo es limitado.",
+          "Hay clases de box, Muay Thai, MMA y kick boxing durante el fin de semana. El cupo es limitado.",
     },
     {
       question: "¿La primera clase es gratis?",
       answer:
-        "Sí, para socios inscritos. Regístrate en recepción y asiste con vendas y ropa deportiva.",
+          "Sí, para socios inscritos. Regístrate en recepción y asiste con vendas y ropa deportiva.",
     },
     {
       question: "¿Cuál es el horario del gimnasio?",
       answer:
-        "Lunes a viernes de 05:00 a 23:00, sábado de 06:00 a 17:00 y domingo de 06:00 a 16:00. Los días festivos pueden tener ajustes.",
+          "Lunes a viernes de 05:00 a 23:00, sábado de 06:00 a 17:00 y domingo de 06:00 a 16:00. Los días festivos pueden tener ajustes.",
     },
     {
       question: "¿Dónde se encuentra?",
       answer:
-        "En Eje Nor-Poniente Manuel J. Clouthier 325, colonia La Capilla, C.P. 38013, Celaya, Guanajuato. Frente al Hospital San José y al lado de PIRMA.",
+          "En Eje Nor-Poniente Manuel J. Clouthier 325, colonia La Capilla, C.P. 38013, Celaya, Guanajuato. Frente al Hospital San José y al lado de PIRMA.",
     },
   ],
   assets: {
     logo: "",
-    heroImage: "/images/gallery/comunidad-4u.jpg",
+    heroImage: "/images/gallery/hero-inscripcion-gratis.png",
     locationImage: "/images/gallery/fachada.jpg",
   },
   seo: {
     title: "Gimnasio en Celaya | 4U Wellness Gym",
     description:
-      "Conoce 4U Wellness Gym en Celaya: mensualidades, clases de box, Muay Thai, MMA y kick boxing, instalaciones, horarios y ubicación.",
+        "Conoce 4U Wellness Gym en Celaya: mensualidades, clases de box, Muay Thai, MMA y kick boxing, instalaciones, horarios y ubicación.",
   },
 } as const;

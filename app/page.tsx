@@ -91,18 +91,14 @@ export default async function Home() {
                 </p>
               </div>
 
-              <figure className="hero-photo">
+              <figure className="hero-photo hero-photo-promo">
                 <Image
                     src={siteContent.assets.heroImage}
-                    alt="Integrantes de la comunidad 4U Wellness Gym"
+                    alt="Promoción de inscripción gratis y mensualidad de 369 pesos de 4U Wellness Gym"
                     fill
                     sizes="(max-width: 820px) 100vw, 42vw"
                     priority
                 />
-                <figcaption>
-                  <span>4U</span>
-                  <strong>Voluntad inquebrantable</strong>
-                </figcaption>
               </figure>
             </div>
           </section>
@@ -116,6 +112,22 @@ export default async function Home() {
                     {fact.note ? <span>{fact.note}</span> : null}
                   </article>
               ))}
+            </div>
+          </section>
+
+          <section className="section gallery-section" id="instalaciones" aria-labelledby="gallery-title">
+            <div className="shell">
+              <div className="section-heading">
+                <div>
+                  <p className="section-kicker">CONOCE EL ESPACIO</p>
+                  <h2 id="gallery-title">Instalaciones</h2>
+                </div>
+                <p>
+                  Recorre las áreas de fuerza, cardio, servicios y comunidad de
+                  4U Wellness Gym.
+                </p>
+              </div>
+              <GalleryCarousel images={siteContent.gallery} />
             </div>
           </section>
 
@@ -283,22 +295,6 @@ export default async function Home() {
                 ))}
                 <p>Regístrate directamente en recepción.</p>
               </div>
-            </div>
-          </section>
-
-          <section className="section gallery-section" id="instalaciones" aria-labelledby="gallery-title">
-            <div className="shell">
-              <div className="section-heading">
-                <div>
-                  <p className="section-kicker">CONOCE EL ESPACIO</p>
-                  <h2 id="gallery-title">Instalaciones</h2>
-                </div>
-                <p>
-                  Recorre las áreas de fuerza, cardio, servicios y comunidad de
-                  4U Wellness Gym.
-                </p>
-              </div>
-              <GalleryCarousel images={siteContent.gallery} />
             </div>
           </section>
 
