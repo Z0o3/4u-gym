@@ -75,7 +75,7 @@ export const siteContent = {
   team: [],
   promotions: [],
   quickFacts: [
-    { value: "Box, Muay Thai y MMA", note: "También kick boxing" },
+    { value: "Pesas, Cardio, Box, Muay Thai y MMA", note: "Fuerza, cardio y combate" },
     { value: "Abierto toda la semana", note: "Desde las 05:00 entre semana" },
     { value: "Visita $45", note: "Inscripción $50" },
   ],
@@ -210,7 +210,7 @@ export const siteContent = {
   ],
   assets: {
     logo: "",
-    heroImage: "/images/gallery/comunidad-4u.jpg",
+    heroImage: "/images/gallery/hero-inscripcion-gratis.png",
     locationImage: "/images/gallery/fachada.jpg",
   },
   seo: {
