@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 :root {
+  /* Respaldos para editores; Next.js sustituye estas variables con las fuentes optimizadas. */
+  --font-body: "Raleway";
+  --font-heading: "Oswald";
   --navy-950: #050705;
   --navy-900: #0a0d0a;
   --navy-800: #121512;
@@ -509,7 +512,7 @@ h2 {
 
 .facts-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .fact {
@@ -543,25 +546,6 @@ h2 {
   margin-top: 7px;
   color: var(--slate);
   font-size: 0.78rem;
-}
-
-.fact-link {
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 180ms ease, box-shadow 200ms ease, color 180ms ease;
-}
-
-.fact-link:hover,
-.fact-link:focus-visible {
-  background: rgb(13 211 81 / 14%);
-  box-shadow: inset 0 0 0 2px var(--green-electric), 0 0 28px rgb(13 211 81 / 22%);
-  color: var(--white);
-}
-
-.fact-link:focus-visible {
-  outline: 3px solid var(--green-electric);
-  outline-offset: -5px;
 }
 
 .hero-photo-promo {
