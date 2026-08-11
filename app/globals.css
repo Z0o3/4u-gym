@@ -235,8 +235,8 @@ h2 {
   min-height: calc(100svh - 76px);
   overflow: hidden;
   background:
-          linear-gradient(90deg, rgb(5 7 5 / 100%) 0%, rgb(5 7 5 / 96%) 48%, rgb(5 7 5 / 68%) 100%),
-          radial-gradient(circle at 77% 34%, #31531f 0, #121512 36%, #050705 72%);
+    linear-gradient(90deg, rgb(5 7 5 / 100%) 0%, rgb(5 7 5 / 96%) 48%, rgb(5 7 5 / 68%) 100%),
+    radial-gradient(circle at 77% 34%, #31531f 0, #121512 36%, #050705 72%);
   color: var(--white);
   isolation: isolate;
 }
@@ -246,8 +246,8 @@ h2 {
   z-index: 0;
   inset: 0;
   background-image:
-          repeating-linear-gradient(112deg, transparent 0 68px, rgb(135 187 12 / 10%) 68px 70px, transparent 70px 112px),
-          linear-gradient(rgb(255 255 255 / 3%) 1px, transparent 1px);
+    repeating-linear-gradient(112deg, transparent 0 68px, rgb(135 187 12 / 10%) 68px 70px, transparent 70px 112px),
+    linear-gradient(rgb(255 255 255 / 3%) 1px, transparent 1px);
   background-size: auto, 100% 7px;
   content: "";
   mask-image: linear-gradient(to right, black, transparent 75%);
@@ -260,9 +260,9 @@ h2 {
   z-index: 0;
   inset: -24%;
   background:
-          radial-gradient(circle at 24% 38%, rgb(13 211 81 / 48%) 0 5%, rgb(13 211 81 / 16%) 17%, transparent 38%),
-          radial-gradient(circle at 72% 22%, rgb(135 187 12 / 40%) 0 6%, rgb(13 211 81 / 13%) 20%, transparent 42%),
-          radial-gradient(ellipse at 58% 78%, rgb(13 211 81 / 30%) 0 8%, transparent 36%);
+    radial-gradient(circle at 24% 38%, rgb(13 211 81 / 48%) 0 5%, rgb(13 211 81 / 16%) 17%, transparent 38%),
+    radial-gradient(circle at 72% 22%, rgb(135 187 12 / 40%) 0 6%, rgb(13 211 81 / 13%) 20%, transparent 42%),
+    radial-gradient(ellipse at 58% 78%, rgb(13 211 81 / 30%) 0 8%, transparent 36%);
   content: "";
   filter: blur(26px) saturate(145%);
   mix-blend-mode: screen;
@@ -398,8 +398,8 @@ h2 {
   overflow: hidden;
   border: 1px solid rgb(135 187 12 / 50%);
   background:
-          linear-gradient(145deg, transparent 0 45%, rgb(135 187 12 / 28%) 45% 46%, transparent 46%),
-          linear-gradient(25deg, var(--navy-700), var(--navy-900));
+    linear-gradient(145deg, transparent 0 45%, rgb(135 187 12 / 28%) 45% 46%, transparent 46%),
+    linear-gradient(25deg, var(--navy-700), var(--navy-900));
   color: var(--white);
 }
 
@@ -457,8 +457,8 @@ h2 {
   position: absolute;
   inset: 0;
   background:
-          linear-gradient(to top, rgb(5 7 5 / 88%), transparent 46%),
-          linear-gradient(135deg, rgb(135 187 12 / 18%), transparent 38%);
+    linear-gradient(to top, rgb(5 7 5 / 88%), transparent 46%),
+    linear-gradient(135deg, rgb(135 187 12 / 18%), transparent 38%);
   content: "";
   pointer-events: none;
 }
@@ -509,7 +509,7 @@ h2 {
 
 .facts-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .fact {
@@ -545,6 +545,42 @@ h2 {
   font-size: 0.78rem;
 }
 
+.fact-link {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 180ms ease, box-shadow 200ms ease, color 180ms ease;
+}
+
+.fact-link:hover,
+.fact-link:focus-visible {
+  background: rgb(13 211 81 / 14%);
+  box-shadow: inset 0 0 0 2px var(--green-electric), 0 0 28px rgb(13 211 81 / 22%);
+  color: var(--white);
+}
+
+.fact-link:focus-visible {
+  outline: 3px solid var(--green-electric);
+  outline-offset: -5px;
+}
+
+.hero-photo-promo {
+  width: min(100%, 520px);
+  min-height: 0;
+  aspect-ratio: 2 / 3;
+  justify-self: end;
+  background: #020703;
+}
+
+.hero-photo-promo::after {
+  display: none;
+}
+
+.hero-photo-promo img {
+  object-fit: contain;
+  object-position: center;
+}
+
 .section {
   padding-block: clamp(82px, 11vw, 148px);
 }
@@ -573,8 +609,8 @@ h2 {
   position: relative;
   overflow: hidden;
   background:
-          linear-gradient(120deg, transparent 0 76%, rgb(135 187 12 / 10%) 76% 78%, transparent 78%),
-          var(--muted);
+    linear-gradient(120deg, transparent 0 76%, rgb(135 187 12 / 10%) 76% 78%, transparent 78%),
+    var(--muted);
 }
 
 .services-section::before {
@@ -641,8 +677,8 @@ h2 {
   gap: 28px;
   overflow: hidden;
   background:
-          repeating-linear-gradient(112deg, transparent 0 72px, rgb(13 211 81 / 11%) 72px 74px, transparent 74px 118px),
-          var(--navy-950);
+    repeating-linear-gradient(112deg, transparent 0 72px, rgb(13 211 81 / 11%) 72px 74px, transparent 74px 118px),
+    var(--navy-950);
   box-shadow: var(--glow-green-soft);
   color: var(--white);
 }
@@ -675,8 +711,8 @@ h2 {
 
 .pricing-section {
   background:
-          repeating-linear-gradient(112deg, transparent 0 88px, rgb(135 187 12 / 7%) 88px 90px, transparent 90px 148px),
-          var(--navy-900);
+    repeating-linear-gradient(112deg, transparent 0 88px, rgb(135 187 12 / 7%) 88px 90px, transparent 90px 148px),
+    var(--navy-900);
   color: var(--white);
 }
 
@@ -873,8 +909,8 @@ h2 {
   padding: clamp(32px, 5vw, 54px);
   overflow: hidden;
   background:
-          linear-gradient(145deg, transparent 62%, rgb(135 187 12 / 16%) 62% 64%, transparent 64%),
-          var(--navy-900);
+    linear-gradient(145deg, transparent 62%, rgb(135 187 12 / 16%) 62% 64%, transparent 64%),
+    var(--navy-900);
   color: var(--white);
 }
 
@@ -937,8 +973,8 @@ h2 {
 
 .gallery-section {
   background:
-          linear-gradient(115deg, transparent 0 68%, rgb(135 187 12 / 7%) 68% 70%, transparent 70%),
-          var(--muted);
+    linear-gradient(115deg, transparent 0 68%, rgb(135 187 12 / 7%) 68% 70%, transparent 70%),
+    var(--muted);
 }
 
 .gallery-carousel {
@@ -1358,8 +1394,8 @@ h2 {
 .final-cta {
   padding-block: clamp(74px, 10vw, 112px);
   background:
-          repeating-linear-gradient(112deg, transparent 0 90px, rgb(0 0 0 / 8%) 90px 93px, transparent 93px 150px),
-          var(--gold);
+    repeating-linear-gradient(112deg, transparent 0 90px, rgb(0 0 0 / 8%) 90px 93px, transparent 93px 150px),
+    var(--gold);
   color: var(--navy-950);
 }
 
@@ -1887,8 +1923,8 @@ h2 {
 .nutrition-section {
   border-block: 1px solid rgb(53 255 116 / 22%);
   background:
-          radial-gradient(circle at 88% 16%, rgb(13 211 81 / 18%), transparent 30%),
-          linear-gradient(140deg, rgb(2 13 6 / 80%), rgb(7 34 14 / 62%), rgb(1 9 4 / 82%));
+    radial-gradient(circle at 88% 16%, rgb(13 211 81 / 18%), transparent 30%),
+    linear-gradient(140deg, rgb(2 13 6 / 80%), rgb(7 34 14 / 62%), rgb(1 9 4 / 82%));
   color: var(--white);
   backdrop-filter: blur(8px);
 }
@@ -2053,8 +2089,8 @@ h2 {
   gap: 32px;
   border: 1px solid rgb(53 255 116 / 24%);
   background:
-          repeating-linear-gradient(112deg, transparent 0 68px, rgb(13 211 81 / 8%) 68px 70px, transparent 70px 112px),
-          rgb(1 10 4 / 80%);
+    repeating-linear-gradient(112deg, transparent 0 68px, rgb(13 211 81 / 8%) 68px 70px, transparent 70px 112px),
+    rgb(1 10 4 / 80%);
   box-shadow: var(--glow-green-soft);
 }
 
@@ -2143,11 +2179,11 @@ main#contenido {
   isolation: isolate;
   overflow: hidden;
   background:
-          radial-gradient(circle at 12% 7%, rgb(21 255 102 / 20%), transparent 24%),
-          radial-gradient(circle at 84% 21%, rgb(132 255 37 / 14%), transparent 26%),
-          radial-gradient(circle at 18% 46%, rgb(13 211 81 / 17%), transparent 28%),
-          radial-gradient(circle at 82% 72%, rgb(21 255 102 / 18%), transparent 26%),
-          linear-gradient(180deg, #020905 0%, #07150b 30%, #031008 62%, #020805 100%);
+    radial-gradient(circle at 12% 7%, rgb(21 255 102 / 20%), transparent 24%),
+    radial-gradient(circle at 84% 21%, rgb(132 255 37 / 14%), transparent 26%),
+    radial-gradient(circle at 18% 46%, rgb(13 211 81 / 17%), transparent 28%),
+    radial-gradient(circle at 82% 72%, rgb(21 255 102 / 18%), transparent 26%),
+    linear-gradient(180deg, #020905 0%, #07150b 30%, #031008 62%, #020805 100%);
   color: #f5f8f4;
 }
 
@@ -2226,9 +2262,9 @@ main#contenido > section {
   stroke-linejoin: round;
   stroke-width: 5;
   filter:
-          drop-shadow(0 0 3px currentColor)
-          drop-shadow(0 0 9px currentColor)
-          drop-shadow(0 0 22px currentColor);
+    drop-shadow(0 0 3px currentColor)
+    drop-shadow(0 0 9px currentColor)
+    drop-shadow(0 0 22px currentColor);
 }
 
 .neon-motion-a {
@@ -2340,9 +2376,9 @@ main#contenido > section {
   stroke-linejoin: round;
   stroke-width: 5;
   filter:
-          drop-shadow(0 0 3px currentColor)
-          drop-shadow(0 0 10px currentColor)
-          drop-shadow(0 0 22px currentColor);
+    drop-shadow(0 0 3px currentColor)
+    drop-shadow(0 0 10px currentColor)
+    drop-shadow(0 0 22px currentColor);
 }
 
 .hero-neon-cross {
@@ -2404,8 +2440,8 @@ main#contenido > section {
 /* Los paneles dejan pasar el fondo verde sin sacrificar legibilidad. */
 .hero {
   background:
-          linear-gradient(90deg, rgb(2 8 4 / 32%) 0%, rgb(2 9 4 / 20%) 48%, rgb(2 9 4 / 8%) 100%),
-          radial-gradient(circle at 77% 34%, rgb(49 83 31 / 34%) 0, rgb(5 16 8 / 20%) 38%, transparent 76%);
+    linear-gradient(90deg, rgb(2 8 4 / 32%) 0%, rgb(2 9 4 / 20%) 48%, rgb(2 9 4 / 8%) 100%),
+    radial-gradient(circle at 77% 34%, rgb(49 83 31 / 34%) 0, rgb(5 16 8 / 20%) 38%, transparent 76%);
 }
 
 .facts {
@@ -2465,8 +2501,8 @@ main#contenido .section-kicker-dark {
 .pricing-section,
 .visit-section {
   background:
-          repeating-linear-gradient(112deg, transparent 0 88px, rgb(30 255 105 / 5%) 88px 90px, transparent 90px 148px),
-          rgb(1 9 4 / 63%);
+    repeating-linear-gradient(112deg, transparent 0 88px, rgb(30 255 105 / 5%) 88px 90px, transparent 90px 148px),
+    rgb(1 9 4 / 63%);
   backdrop-filter: blur(2px);
 }
 
@@ -2539,8 +2575,8 @@ main#contenido .section-kicker-dark {
 .final-cta {
   border-top: 1px solid rgb(53 255 116 / 28%);
   background:
-          repeating-linear-gradient(112deg, transparent 0 90px, rgb(57 255 119 / 7%) 90px 93px, transparent 93px 150px),
-          linear-gradient(110deg, rgb(3 19 8 / 88%), rgb(10 53 20 / 74%), rgb(2 12 6 / 90%));
+    repeating-linear-gradient(112deg, transparent 0 90px, rgb(57 255 119 / 7%) 90px 93px, transparent 93px 150px),
+    linear-gradient(110deg, rgb(3 19 8 / 88%), rgb(10 53 20 / 74%), rgb(2 12 6 / 90%));
   color: var(--white);
   backdrop-filter: blur(10px);
 }
