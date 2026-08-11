@@ -112,11 +112,22 @@ export default async function Home() {
                 {fact.note ? <span>{fact.note}</span> : null}
               </article>
             ))}
-            <a className="fact fact-link" href="#instalaciones">
-              <p>Galería</p>
-              <strong>Imágenes del gimnasio</strong>
-              <span>Conoce nuestras instalaciones</span>
-            </a>
+          </div>
+        </section>
+
+        <section className="section gallery-section" id="instalaciones" aria-labelledby="gallery-title">
+          <div className="shell">
+            <div className="section-heading">
+              <div>
+                <p className="section-kicker">CONOCE EL ESPACIO</p>
+                <h2 id="gallery-title">Instalaciones</h2>
+              </div>
+              <p>
+                Recorre las áreas de fuerza, cardio, servicios y comunidad de
+                4U Wellness Gym.
+              </p>
+            </div>
+            <GalleryCarousel images={siteContent.gallery} />
           </div>
         </section>
 
@@ -284,22 +295,6 @@ export default async function Home() {
               ))}
               <p>Regístrate directamente en recepción.</p>
             </div>
-          </div>
-        </section>
-
-        <section className="section gallery-section" id="instalaciones" aria-labelledby="gallery-title">
-          <div className="shell">
-            <div className="section-heading">
-              <div>
-                <p className="section-kicker">CONOCE EL ESPACIO</p>
-                <h2 id="gallery-title">Instalaciones</h2>
-              </div>
-              <p>
-                Recorre las áreas de fuerza, cardio, servicios y comunidad de
-                4U Wellness Gym.
-              </p>
-            </div>
-            <GalleryCarousel images={siteContent.gallery} />
           </div>
         </section>
 
