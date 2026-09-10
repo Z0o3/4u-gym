@@ -123,7 +123,7 @@ export default async function Home() {
                   <h2 id="gallery-title">Instalaciones</h2>
                 </div>
                 <p>
-                  Recorre las áreas de fuerza, cardio, servicios y comunidad de
+                  Recorre las áreas: fuerza, cardio, servicios y comunidad de
                   4U Wellness Gym.
                 </p>
               </div>
