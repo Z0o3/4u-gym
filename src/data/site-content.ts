@@ -210,7 +210,7 @@ export const siteContent = {
   ],
   assets: {
     logo: "",
-    heroImage: "/images/gallery/Promo 092026.jpeg",
+    heroImage: "/images/gallery/promo-092026.jpeg",
     locationImage: "/images/gallery/fachada.jpg",
   },
   seo: {
