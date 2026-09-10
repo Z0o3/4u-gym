@@ -187,16 +187,7 @@ export default async function Home() {
                 ¿Estás listo/a para lograr tus objetivos de manera saludable,
                 realista y sin dietas extremas?
               </p>
-              <p>
-                En mi servicio de nutrición personalizada, trabajamos juntos
-                para:
-              </p>
-              <ul className="nutrition-benefits">
-                <li>Establecer metas claras y alcanzables</li>
-                <li>Diseñar un plan de alimentación adaptado a tu estilo de vida</li>
-                <li>Evaluar tu composición corporal y progresos</li>
-                <li>Acompañarte con seguimiento y motivación constante</li>
-              </ul>
+
               <p>
                 Ya sea que tu objetivo sea bajar de peso, mejorar tu rendimiento,
                 ganar masa muscular o simplemente sentirte mejor contigo, aquí
